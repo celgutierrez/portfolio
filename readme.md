@@ -1,8 +1,8 @@
-<h1>Celina's Portfolio</h1>
+#Celina's Portfolio
 
 View this portfolio [here](https://celinagutierrez.github.io)!
 
-##To Do:##
+##To Do:
 * Everything
 * Set up pages
 * Create routes
