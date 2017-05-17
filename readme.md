@@ -2,7 +2,7 @@
 
 View this portfolio [here](https://celinagutierrez.github.io)!
 
-#To Do:
+<h3>To Do:</h3>
 * Everything
 * Set up pages
 * Create routes
