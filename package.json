@@ -1,0 +1,29 @@
+{
+  "name": "celgutierrez.github.io",
+  "version": "1.0.0",
+  "description": "View this portfolio [here](https://celgutierrez.github.io)!",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/celgutierrez/celgutierrez.github.io.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/celgutierrez/celgutierrez.github.io/issues"
+  },
+  "homepage": "https://github.com/celgutierrez/celgutierrez.github.io#readme",
+  "dependencies": {
+    "body-parser": "^1.17.1",
+    "browser-sync": "^2.18.11",
+    "express": "^4.15.3",
+    "express-ejs-layouts": "^2.3.0",
+    "materialize-css": "^0.98.2",
+    "path": "^0.12.7",
+    "pg": "^6.2.2",
+    "pg-hstore": "^2.3.2"
+  }
+}
