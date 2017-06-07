@@ -2,7 +2,7 @@
 
 View this portfolio [here](https://celgutierrez.github.io)!
 
-##To Do:##
-* Everything
-* Set up pages
-* Create routes
+To Do:##
+* Create About Page
+* Create Contact Page
+* Finish Homepage
