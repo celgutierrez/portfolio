@@ -1,7 +1,7 @@
 {
     "name": "celgutierrez.github.io",
     "version": "1.0.0",
-    "description": "View this portfolio [here](https://www.celgutierrez.herokuapps.com)!",
+    "description": "View this portfolio [here](https://www.celgutierrez.herokuapp.com)!",
     "main": "index.js",
     "scripts": {
         "test": "echo \"Error: no test specified\" && exit 1"
@@ -13,9 +13,9 @@
     "author": "",
     "license": "ISC",
     "bugs": {
-        "url": "https://www.celgutierrez.herokuapps.com"
+        "url": "https://www.celgutierrez.herokuapp.com"
     },
-    "homepage": "https://www.celgutierrez.herokuapps.com",
+    "homepage": "https://www.celgutierrez.herokuapp.com",
     "dependencies": {
         "body-parser": "^1.17.1",
         "browser-sync": "^2.18.11",
