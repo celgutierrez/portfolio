@@ -1,6 +1,12 @@
+body {
+    color: white;
+}
+
 .false-nav {
     height: 1em;
     width: 100%;
+    position: fixed;
+    top: 0;
 }
 
 ul .real-nav {
@@ -38,4 +44,29 @@ ul .real-nav {
 
 .pad {
     margin-top: 5em;
+}
+
+.resize {
+    height: 10em;
+}
+
+.bee {
+    background-repeat: no-repeat;
+    height: 100%;
+}
+
+.title {
+    font-size: 20px;
+}
+
+.desc {
+    font-size: 13px;
+}
+
+.language {
+    font-size: 12px;
+}
+
+a.web {
+    color: white;
 }
