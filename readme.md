@@ -1,6 +1,6 @@
 #Celina's Portfolio#
 
-View this portfolio [here](https://celgutierrez.github.io)!
+View this portfolio [here](https://celgutierrez.herokuapps.com)!
 
 To Do:##
 * Create About Page
