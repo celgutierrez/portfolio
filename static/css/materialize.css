@@ -23,8 +23,8 @@ ul .real-nav {
     z-index: 99;
 }
 
-.sub-nav {
-    height: 1.4em;
+ul li {
+    margin-bottom: .5em;
 }
 
 .item {
@@ -44,6 +44,68 @@ ul .real-nav {
 
 .pad {
     margin-top: 5em;
+}
+
+.subl-file {
+    font-size: 12px;
+}
+
+.marked {
+    font-size: 10px;
+    color: grey;
+}
+
+.sub-nav {
+    text-align: left;
+    padding-left: .3em;
+    border-radius: 5px 5px 0 0;
+}
+
+.left-col {
+    height: 100%;
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
 }
 
 .resize {
