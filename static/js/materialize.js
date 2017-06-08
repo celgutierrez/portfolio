@@ -1,10 +1,6 @@
 $(document).ready(function() {
     $('.tooltipped').tooltip({ delay: 10 });
-
-    // $(".element").typed({
-            //     strings: ["First sentence.", "Second sentence."],
-            //     typeSpeed: 0
-            // });
-
+    typewriter.prepare('.typewriter');
+    typewriter.type('.typewriter');
 
 });

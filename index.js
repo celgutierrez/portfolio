@@ -1,15 +1,15 @@
 var express = require('express');
 var ejsLayouts = require('express-ejs-layouts');
 var bodyParser = require('body-parser');
-// var typed = require('typed.js');
+var typewriter = require('typewriter-js');
 var app = express();
 
 
 app.set('view engine', 'ejs');
 app.use(express.static(__dirname + '/static'));
+app.use(typewriter);
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(ejsLayouts);
-// app.use(typed);
 
 
 app.get('/', function(req, res) {

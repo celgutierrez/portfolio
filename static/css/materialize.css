@@ -1,5 +1,14 @@
+html {
+    font-family: GillSans, Calibri, Trebuchet, sans-serif;
+}
+
 body {
     color: white;
+}
+
+h3,
+.title {
+    font-family: 'Lobster', cursive;
 }
 
 .false-nav {
@@ -34,16 +43,28 @@ ul li {
     border-radius: 5px;
 }
 
+.contact-item:hover,
 .navhov:hover {
     background-color: rgba(255, 255, 255, .4);
 }
 
-.box {
-    background-color: rgba(0, 0, 0, .2);
+.about-box {
+    background-color: rgba(0, 0, 0, .5);
+    border-radius: 10px;
+}
+
+.about-txt {
+    text-align: center;
+    margin-top: .7em;
+    margin-bottom: .7em;
 }
 
 .pad {
     margin-top: 5em;
+}
+
+.sublime {
+    height: 20em;
 }
 
 .subl-file {
@@ -63,6 +84,10 @@ ul li {
 
 .left-col {
     height: 100%;
+}
+
+.com-out {
+    color: grey;
 }
 
 .typed-cursor {
@@ -131,4 +156,20 @@ ul li {
 
 a.web {
     color: white;
+}
+
+.contact-item {
+    height: 70%;
+    width: 70%;
+    background-color: rgba(255, 255, 255, .2);
+    border-radius: 5px;
+}
+
+.contact-list,
+.about-space {
+    margin-top: 2em;
+}
+
+.about-space {
+    margin-bottom: 2em;
 }
