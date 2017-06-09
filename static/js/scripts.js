@@ -4,6 +4,12 @@ $(document).ready(function() {
         menuWidth: 100
     });
     $('.carousel').carousel();
+    $(".type").typed({
+        strings: ['Dreamer', 'Artist', 'Activist', 'Front End Web Developer'],
+        startDelay: 900,
+        typeSpeed: 100,
+        loop: false
+    });
 
 
 });

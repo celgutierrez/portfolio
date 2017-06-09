@@ -165,3 +165,66 @@ a.web {
     background-color: rgba(255, 255, 255, .2);
     border-radius: 5px;
 }
+
+#main1 {
+    position: absolute;
+    width: 100%;
+    height: 550px;
+    top: 0;
+    border-bottom: 2px solid white;
+}
+
+.type {
+    padding-left: -50px;
+    font-size: 20px text-align: center;
+    transition-delay: 5s;
+}
+
+.typed-fade-out {
+    opacity: 0;
+    animation: 0;
+    transition: opacity .25s;
+}
+
+.typed-cursor {
+    opacity: 1;
+    -webkit-animation: blink 0.7s infinite;
+    -moz-animation: blink 0.7s infinite;
+    animation: blink 0.7s infinite;
+}
+
+@keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-webkit-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
+
+@-moz-keyframes blink {
+    0% {
+        opacity: 1;
+    }
+    50% {
+        opacity: 0;
+    }
+    100% {
+        opacity: 1;
+    }
+}
