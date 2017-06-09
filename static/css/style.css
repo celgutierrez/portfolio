@@ -11,6 +11,10 @@ h3,
     font-family: 'Lobster', cursive;
 }
 
+.skill {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+}
+
 .false-nav {
     height: 1em;
     width: 100%;
@@ -78,6 +82,24 @@ ul li {
 .contact-list,
 .about-space {
     margin-top: 2em;
+}
+
+.carousel {
+    height: 15em !important;
+}
+
+.carousel .carousel-item {
+    width: 5em !important;
+    padding-top: 4em;
+}
+
+a.carousel-item {
+    color: white;
+}
+
+.item-item {
+    background-color: rgba(255, 255, 255, .5);
+    border-radius: 10px;
 }
 
 .pad {
