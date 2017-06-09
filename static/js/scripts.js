@@ -4,11 +4,5 @@ $(document).ready(function() {
         menuWidth: 100
     });
 
-    $(function() {
-        $("#typing_text").typed({
-            strings: ["Hello World,", "this is amazing."],
-            typeSpeed: 0
-        });
-    });
 
 });
