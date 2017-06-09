@@ -15,6 +15,7 @@ h3,
     height: 1em;
     width: 100%;
     position: fixed;
+    z-index: 99;
     top: 0;
 }
 
@@ -33,16 +34,21 @@ ul .real-nav {
     border-right: 1px solid rgba(255, 255, 255, .2);
 }
 
+.mini-nav {
+    background-color: rgba(62, 8, 57, .9) !important;
+}
+
 ul li {
     margin-bottom: .5em;
 }
 
 .item {
-    height: 60%;
-    width: 60%;
+    height: 70%;
+    width: 70%;
     background-color: rgba(255, 255, 255, .2);
     border-radius: 5px;
     border: 1px solid rgba(255, 255, 255, .1);
+    margin-bottom: .5em;
 }
 
 .contact-item:hover,
@@ -57,8 +63,21 @@ ul li {
 
 .about-txt {
     text-align: center;
+}
+
+.about-pic,
+.about-space {
+    margin-bottom: 2em;
+}
+
+.about-pic {
     margin-top: .7em;
-    margin-bottom: .7em;
+    padding: 1em;
+}
+
+.contact-list,
+.about-space {
+    margin-top: 2em;
 }
 
 .pad {
@@ -66,7 +85,8 @@ ul li {
 }
 
 .sublime {
-    height: 20em;
+    height: 100%;
+    width: 100%;
 }
 
 .subl-file {
@@ -85,54 +105,11 @@ ul li {
 }
 
 .left-col {
-    height: 100%;
+    height: inherit;
 }
 
 .com-out {
     color: grey;
-}
-
-.typed-cursor {
-    opacity: 1;
-    -webkit-animation: blink 0.7s infinite;
-    -moz-animation: blink 0.7s infinite;
-    animation: blink 0.7s infinite;
-}
-
-@keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-webkit-keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
-}
-
-@-moz-keyframes blink {
-    0% {
-        opacity: 1;
-    }
-    50% {
-        opacity: 0;
-    }
-    100% {
-        opacity: 1;
-    }
 }
 
 .resize {
@@ -165,13 +142,4 @@ a.web {
     width: 70%;
     background-color: rgba(255, 255, 255, .2);
     border-radius: 5px;
-}
-
-.contact-list,
-.about-space {
-    margin-top: 2em;
-}
-
-.about-space {
-    margin-bottom: 2em;
 }
