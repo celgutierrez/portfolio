@@ -46,6 +46,12 @@ ul .real-nav {
     justify-content: center;
 }
 
+.contact-icon {
+    width: 1.5em;
+    height: 1.5em;
+    margin-left: .5em;
+}
+
 
 ul li {
     margin-bottom: .5em;
