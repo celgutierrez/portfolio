@@ -42,6 +42,7 @@ ul .real-nav {
     background-color: rgba(62, 8, 57, .9) !important;
 }
 
+
 ul li {
     margin-bottom: .5em;
 }
@@ -58,6 +59,15 @@ ul li {
 .contact-item:hover,
 .navhov:hover {
     background-color: rgba(255, 255, 255, .4);
+}
+
+.contact-rect {
+    background-color: rgba(255, 255, 255, .4);
+}
+
+.contact-rect:hover {
+    background-color: white;
+    color: black !important;
 }
 
 .about-box {
