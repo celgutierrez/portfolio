@@ -5,7 +5,7 @@ $(document).ready(function() {
     });
     $('.carousel').carousel();
     $(".type").typed({
-        strings: ['Dreamer', 'Artist', 'Activist', 'Front End Web Developer'],
+        strings: ['Artist', 'Activist', 'Full Stack Web Developer'],
         startDelay: 900,
         typeSpeed: 100,
         loop: false
