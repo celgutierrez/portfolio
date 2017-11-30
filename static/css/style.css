@@ -88,9 +88,14 @@ ul li {
 }
 
 #enter {
-    animation-duration: 4s !important;
-    animation-delay:9s !important;
+    animation-duration: 4s;
+    animation-delay: 9s;
   }
+
+.enter-btn {
+    animation-duration: 5s;
+    animation-delay: 11s;
+}
 
 .home-box {
     margin-top: 50%;
