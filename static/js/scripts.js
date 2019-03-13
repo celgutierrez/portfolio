@@ -5,8 +5,8 @@ $(document).ready(function() {
     });   
     $('.carousel').carousel();
     $(".type").typed({
-        strings: ['Artist', 'Activist', 'Full Stack Web Developer'],
-        startDelay: 900,
+        strings: ['Artist', 'Problem-Solver', 'Full Stack Web Developer'],
+        startDelay: 950,
         typeSpeed: 100,
         loop: false
     });
