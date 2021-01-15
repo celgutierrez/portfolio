@@ -1,5 +1,10 @@
 html {
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    background:url('../img/ubuntu.jpeg') no-repeat center center fixed; 
+    background-size:cover; 
+    height: 100vh; 
+    width:100vw; 
+    overflow: none;
 }
 
 body {
@@ -85,6 +90,49 @@ ul li {
 .contact-rect:hover {
     background-color: white;
     color: black !important;
+}
+
+/*home page*/
+.home-container {
+    max-width: 100%;
+    margin: 10% 0;
+    display: flex;
+    flex-wrap: wrap;
+    align-content: center;
+}
+.home {
+    margin-left: 5em;
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    flex-wrap: wrap;
+    min-height: 24em;
+}
+
+.home-item {
+    flex: 1;
+}
+
+.greetings {
+    /*align-self: flex-start;*/
+    background-color: gray;
+}
+
+.small-intro {
+    background-color: orange;
+}
+
+.home-scroll-btn {
+  display: flex;
+  align-items: center;
+  min-height: 24em;
+  justify-content: center;
+  background-color: red;
+}
+
+.pagescroll {
+    align-self: center;
 }
 
 #enter {
