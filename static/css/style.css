@@ -1,5 +1,10 @@
 html {
     font-family: GillSans, Calibri, Trebuchet, sans-serif;
+    background:url('../img/ubuntu.jpeg') no-repeat center center fixed; 
+    background-size:cover; 
+    height: 100vh; 
+    width:100vw; 
+    overflow: none;
 }
 
 body {
@@ -13,10 +18,6 @@ h6 {
 h3,
 .title {
     font-family: 'Dosis', sans-serif;    
-}
-
-.skill {
-    font-family: 'Yanone Kaffeesatz', sans-serif;
 }
 
 .false-nav {
@@ -102,32 +103,91 @@ ul li {
     padding-bottom: .7em;
 }
 
-.about-box,
+.about-container,
 .home-box {
     background-color: rgba(0, 0, 0, .5);
     border-radius: 10px;
 }
 
-.aboutalign {
-    padding-top: 0.5em;
+/*ABOUT SECTION */
+
+.about-container {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    width: 85%;
+    margin: 3em auto;
+    padding: 2em;
 }
 
-.about-txt {
+.profile-container,
+.skills-container {
+    width: 50%;
+    padding: 2em;
+}
+
+.profile-container {
+    margin: 4em 0;
+}
+
+.profile-img-container {
+    margin: 0 auto;
+    width: 50%;
+}
+
+.profile-img {
+    max-width: 100%;
+    height: auto;
+    border-radius: 50%;
+}
+
+.profile-info {
     text-align: center;
 }
 
-.about-pic,
-.about-space {
-    margin-bottom: 2em;
+.skills-header {
+    font-family: 'Yanone Kaffeesatz', sans-serif;
+    text-align: center;
 }
 
-.about-pic {
-    margin-top: .7em;
-    padding: 1em;
+.skills-list ul {
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    height: 400px;
 }
 
-.contact-list,
-.about-space {
+.skills-list ul li {
+    height: 50px;
+    background-color: rgb(115, 115, 115);
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: .5em;
+    padding: .25em;
+    width: 50%;
+}
+
+li .icon-container {
+    height: 100%;
+    margin: 0 1em;
+    padding: .2em 0;
+    width: 13%;
+}
+
+li .php-icon {
+    padding: .6em 0;
+}
+
+.skills-item {
+    width: 100%;
+    height: auto;
+    filter: grayscale(100%) brightness(0);
+}
+
+.contact-list {
     margin-top: 2em;
 }
 
@@ -142,11 +202,6 @@ ul li {
 
 a.carousel-item {
     color: white;
-}
-
-.item-item {
-    background-color: rgba(255, 255, 255, .5);
-    border-radius: 10px;
 }
 
 .pad {
@@ -273,5 +328,36 @@ a.web {
     }
     100% {
         opacity: 1;
+    }
+}
+
+@media screen and (max-width: 768px) {
+    /* ABOUT SECTION */
+    .about-container {
+        flex-direction: column;   
+    }
+
+    .profile-container {
+        margin: 0;
+        width: 100%;
+    }
+
+    .profile-img-container {
+        width: 100%;
+    }
+
+    .skills-container {
+        width: 100%;
+        padding: 0;
+    }
+
+    .skills-list ul {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        height: unset;
+    }
+
+    .skills-list ul li {
+        width: 100%;
     }
 }
