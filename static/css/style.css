@@ -20,6 +20,8 @@ h3,
     font-family: 'Dosis', sans-serif;    
 }
 
+/* NAVIGATION */
+
 .false-nav {
     height: 1em;
     width: 100%;
@@ -49,6 +51,16 @@ ul .real-nav {
 
 .menu-bar {
     justify-content: center;
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 0;
+    z-index: 9999;
+}
+
+i.menu-icon {
+    font-size: 45px;
 }
 
 .contact-icon {
