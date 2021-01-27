@@ -56,11 +56,15 @@ ul .real-nav {
 .mobile-menu {
     position: fixed;
     top: 0;
-    z-index: 9999;
+    z-index: 9995;
 }
 
 i.menu-icon {
     font-size: 45px;
+}
+
+ul.side-nav {
+    z-index: 9999;
 }
 
 .contact-icon {
