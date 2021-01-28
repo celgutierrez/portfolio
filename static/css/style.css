@@ -142,6 +142,8 @@ ul li {
     width: 85%;
     margin: 3em auto;
     padding: 2em;
+    animation: fadeIn;
+    animation-duration: 1s;
 }
 
 .profile-container,
