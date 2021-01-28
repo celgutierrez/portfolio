@@ -174,6 +174,10 @@ ul li {
     text-align: center;
 }
 
+.skills-list {
+    margin-left: 5em;
+}
+
 .skills-list ul {
     list-style: none;
     display: flex;
@@ -184,7 +188,6 @@ ul li {
 
 .skills-list ul li {
     height: 50px;
-    background-color: rgb(115, 115, 115);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -207,7 +210,7 @@ li .php-icon {
 .skills-item {
     width: 100%;
     height: auto;
-    filter: grayscale(100%) brightness(0);
+    -webkit-filter: invert(100%) brightness(300%);
 }
 
 .contact-list {
@@ -354,6 +357,8 @@ a.web {
     }
 }
 
+/* MEDIA QUERIES */
+
 @media screen and (max-width: 768px) {
     /* ABOUT SECTION */
     .about-container {
@@ -374,13 +379,21 @@ a.web {
         padding: 0;
     }
 
+    .skills-list {
+        margin-left: unset;
+    }
+
     .skills-list ul {
-        flex-direction: column;
-        flex-wrap: nowrap;
+        flex-direction: row;
         height: unset;
     }
 
     .skills-list ul li {
-        width: 100%;
+        width: 46%;
+        margin: .25em;
+    }
+
+    li .icon-container {
+        width: 25%;
     }
 }
