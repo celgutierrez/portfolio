@@ -217,17 +217,27 @@ li .php-icon {
     margin-top: 2em;
 }
 
-.carousel {
-    height: 15em !important;
+.project-btn-container {
+    display: flex;
+    justify-content: space-around;
 }
 
-.carousel .carousel-item {
-    width: 5em !important;
-    padding-top: 4em;
+.project-btn {
+    width: 50%;
+    background-color: rgba(0, 0, 0, .6);
+    padding: 0.5em;
+    margin: .25em;
+    display: flex;
+    justify-content: center;
 }
 
-a.carousel-item {
-    color: white;
+.project-btn i {
+    margin-right: .2em;
+}
+
+a.project-btn:hover {
+    background-color: rgb(255,255,255);
+    color: rgb(0,0,0);
 }
 
 .pad {
@@ -396,5 +406,16 @@ a.web {
     li .icon-container {
         width: 25%;
         margin: 0 .5em;
+    }
+
+    /* PROJECTS */
+
+    .project-btn-container {
+        flex-direction: column;
+    }
+
+    .project-btn {
+        width: 100%;
+        padding: 1em;
     }
 }
