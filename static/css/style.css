@@ -16,10 +16,54 @@ h6 {
     font-family: 'Roboto Mono', monospace;    
 }
 
-h3,
+h2, h3,
 .title {
     font-family: 'Dosis', sans-serif;    
 }
+
+/* LINUX MIMIC  */
+
+.linux-window {
+    border: 2px solid #212121;
+    width: 85%;
+    height: auto;
+    box-shadow: -2px 2px 2px rgba(0, 0, 0, 0.5);
+    background-color: white;
+    border-radius: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    color: #000;
+}
+
+.linux-details {
+    width: 100%;
+    background-image: linear-gradient(#484742, #212121);
+    background-color: #212121;
+    padding: 0.2em .5em;
+}
+
+.linux-false-btn {
+    display: inline-block;
+    height: 15px;
+    width: 15px;
+    border-radius: 50%;
+}
+
+.linux-grey {
+    background-image: linear-gradient(#868580, #51504b);
+    background-color: #51504b;
+}
+
+.linux-orange {
+    background-image: linear-gradient(#f48461, #df4d18);
+    background-color: rgb(223, 77, 24);
+}
+
+.linux-content {
+    padding: 1em;
+}
+
+/* END LINUX MIMIC */
 
 /* NAVIGATION */
 
@@ -217,6 +261,41 @@ li .php-icon {
     margin-top: 2em;
 }
 
+/* PROJECTS */
+
+.project-showcase {
+    display: flex;
+    align-items: center;
+    height: 65vh;
+}
+
+.project-desktop {
+    height: 350px; 
+    width: 520px;
+}
+
+.project-mobile {
+    height:300px; 
+    width:200px;
+}
+
+.project-blurb {
+    width: fit-content;
+    display: inline-block;
+    text-align: center;
+}
+.project-blurb h2 {
+    font-weight: 800;
+}
+
+.project-blurb h3 {
+    font-size: 1.5em;
+}
+
+.project-blurb p {
+    
+}
+
 .project-btn-container {
     display: flex;
     justify-content: space-around;
@@ -241,7 +320,7 @@ a.project-btn:hover {
 }
 
 .pad {
-    margin-top: 5em;
+    margin-top: 3em;
 }
 
 .sublime {
@@ -369,6 +448,17 @@ a.web {
 
 /* MEDIA QUERIES */
 
+@media screen and (max-width: 959px) {
+    .project-showcase {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .project-showcase img {
+        margin-top: 1em;
+    }
+}
+
 @media screen and (max-width: 768px) {
     /* ABOUT SECTION */
     .about-container {
@@ -417,5 +507,16 @@ a.web {
     .project-btn {
         width: 100%;
         padding: 1em;
+    }
+
+    .project-showcase {
+        flex-direction: column-reverse;
+        height: auto;
+    }
+
+    .project-desktop {
+        width: 100%;
+        height: auto;
+        margin-bottom: 5em;
     }
 }
